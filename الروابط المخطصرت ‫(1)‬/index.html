@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function validateForm() {
+  var x = document.forms["myForm"]["fname"].value;
+  if (x == "majid") {
+   
+    
+  }else{
+  alert("كلمة المرور خطاء");
+  return false;
+  }
+}
+</script>
+</head>
+<body>
+
+<form name="myForm" action="majid.html" onsubmit="return validateForm()" method="post">
+  كلمةالسرء <input type="password" name="fname">
+  <input type="submit" value="أدخول">
+</form>
+
+</body>
+</html>
+
+    
+
+ 
